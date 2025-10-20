@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Frontend road map">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="HIENLTH">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend development road map</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f8f9fc;
+            color: #333;
+            display: flex; 
+        }
+        .ul{
+            list-style-type: none;
+            display:flex;
+            padding:5px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            margin: 10px;
+        }
+        a:hover {
+            color:  #00ff90;
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 50px;
+            background-color: #2C3E50;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        .logo{
+            border-radius: 50%;
+            margin-right: 50px;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 20000px;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 80px 0px 0px;
+        }
+        .avatar {
+            width: 200px;
+            height:200px;
+            border-radius: 10%;
+            border: 3px solid #ffffff;
+            object-fit: cover;
+            margin-bottom: 30px;
+        }
+        .box2 {
+            background: #f0f2f8;
+            width: 300px;
+            padding: 80px 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            white-space: nowrap;
+            text-align: center;
+        }
+        .gth{
+            flex: 1;
+            padding:40px;
+            background: #fff;
+        }
+        .thongtin{
+            display: flex;
+            justify-content:first baseline;
+            flex-wrap: wrap;
+        }
+        .thongtin1{
+            justify-content:baseline;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .thongtin h1{
+            color: #007bff;
+            font-size:30px;
+            font-weight: 600; 
+            margin-bottom: 20px;
+        }
+        p{
+           font-size: 16px;
+           margin: 8px; 
+        }
+        .mangxh {
+            padding-top:50px;
+            font-size: 30px;
+            color: #007bff;
+            margin-bottom: 15px;
+        }
+        .list {
+            display: flex;
+            gap: 20px;
+            
+        }
+
+        .xahoi {
+            background: #f8f9fc;
+            border-radius: 15px;
+            flex: 1;
+            min-width: 250px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        .xahoi a{
+            color: black;
+            font-weight: 600;
+        }
+        .xahoi:hover {
+            background: #007bff;
+            color: white;
+        }
+        .xahoi a:hover {
+            color: white;
+        }
+        iframe{
+            width: 200px;
+            height:200px;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <header>
+    <div class="box">
+        <div><img src="avatar.jpg" width="50" class="logo"></div>
+        <ul class="ul"; class="menu li a">
+            <li><a href="http://127.0.0.1:3000/baitap1.6/1.6.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">TRANG CHỦ</a></li>
+            <li ><a href="http://127.0.0.1:3000/baitap1.6/trangchu.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">GIỚI THIỆU</a></li>
+            <li><a href="http://127.0.0.1:3000/baitap1.6/kehoachhoctap.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">KẾ HOẠCH HỌC TẬP</a></li>
+            <li><a href="http://127.0.0.1:3000/baitap1.6/sothich.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">SỞ THÍCH</a></li>
+            <li><a href="http://127.0.0.1:3000/baitap1.6/tranglienhe.html?serverWindowId=8d42d43f-38f4-4023-a697-534b795b812f">TRANG LIÊN HỆ</a></li>
+    </div>
+    </header>
+
+
+<div class="container">
+    <div class="box2">
+      <div>
+        <img src="avatar3.jpg" alt="Anh Khôi" class="avatar">
+        <h2>Trịnh Lê Anh Khôi</h2>
+        <p>51.01.103.050</p>
+      </div>
+    </div> 
+      
+    <div class="gth">
+        <div>
+          <div class="thongtin">
+            <h1>Giới Thiệu</h1>
+          </div>
+            <div class="thongtin1">
+            <p><strong>Họ và tên:</strong> Trịnh Lê Anh Khôi</p>
+            <p><strong>Ngày sinh: </strong>01/12/2007</p>
+            <p><strong>Trường cấp 3: </strong>THPT chuyên Bến Tre</p>
+            <p><strong>Địa chỉ: </strong>ấp thị, xã Hương Mỹ, tỉnh Vĩnh Long</p>
+            <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62867.66896840285!2d106.32414643249737!3d9.997907872123445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a01b18ef43a827%3A0x495fe30fa51b168d!2zSMawxqFuZyBN4bu5LCBN4buPIEPDoHkgTmFtLCBC4bq_biBUcmUsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1760810025573!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+          </div>
+        </div>
+        <div>
+            <h2 class="mangxh">Trang xã hội</h2>
+            <div class="list">
+                <div class="xahoi">
+                    <h3><a href="https://www.facebook.com/trinh.khoi.754703?mibextid=wwXIfr&mibextid=wwXIfr">Facebook</a></h3>
+                </div>
+                <div class="xahoi">
+                    <h3><a href="https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.instagram.com%2Fkhoitrinh2%3Ffbclid%3DIwZXh0bgNhZW0CMTAAYnJpZBExWU5ROGg5UHVCbktSV25kRgEew7AP5tlxLZ5KerNhxl9GcMOlkL0Leu_Zvm8SrQgg1unRhC0mnoGGzJcABsE_aem_HspOOviYjFQLV7wwZhNbwA&h=AT3dxaXpPLrZed2Iaj8YEzbF_YdR8BrFS2t3I9baiglPhJdjYbG4nCC0cnewBWJBLAGDGW3AVqZokrK15D229uJGTHn1pJQHawl2PidSKE8cPrcLlfPoz-lp20f7MhUaX7o_VrS2lySmpPVySFsEPg">Instagram</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</div>
+</body>
+</html>
